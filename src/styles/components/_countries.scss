@@ -1,0 +1,28 @@
+.countries {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 3vh;
+  padding: 10px;
+  gap: 40px;
+
+  .radio-container {
+    background: rgba(0, 0, 0, 0.344);
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+  }
+
+  h1 {
+    margin-bottom: 2vh;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
